@@ -1,7 +1,7 @@
 {
   "name": "@populatus/vite-plugin-import-sfc",
   "type": "module",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "packageManager": "pnpm@7.12.0",
   "description": "A vite plugin that allows you to automatically import sfc",
   "author": "Populatus <populatus@126.com>",
@@ -21,24 +21,15 @@
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
+      "require": "./dist/index.cjs",
       "import": "./dist/index.mjs"
-    },
-    "./*": "./*"
-  },
-  "main": "dist/index.mjs",
-  "module": "dist/index.mjs",
-  "types": "dist/index.d.ts",
-  "typesVersions": {
-    "*": {
-      "*": [
-        "./dist/*",
-        "./dist/index.d.ts"
-      ]
     }
   },
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
   "files": [
-    "dist",
-    "*.d.ts"
+    "dist"
   ],
   "scripts": {
     "build": "unbuild",
