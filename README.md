@@ -14,7 +14,7 @@ Add plugin to your `vite.config.ts`:
 
 ```ts
 // vite.config.ts
-import ImportSFC from 'vite-plugin-import-sfc'
+import ImportSFC from '@populatus/vite-plugin-import-sfc'
 
 export default {
   plugins: [
@@ -32,4 +32,4 @@ The sfc automatically insert to your vue modules.
 
 ## License
 
-[MIT](./LICENSE) License © 2022 [Populatus](https://github.com/populatus)
+[MIT](./LICENSE) License © 2023 [Populatus](https://github.com/populatus)
