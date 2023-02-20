@@ -1,6 +1,6 @@
 # vite-plugin-import-sfc
 
-[![NPM version](https://img.shields.io/npm/v/vite-plugin-import-sfc?color=a1b858&label=)](https://www.npmjs.com/package/vite-plugin-import-sfc)
+[![NPM version](https://img.shields.io/npm/v/@populatus/vite-plugin-import-sfc?color=a1b858&label=)](https://www.npmjs.com/package/@populatus/vite-plugin-import-sfc)
 
 Vite plugin that allows you to automatically import sfc component
 
