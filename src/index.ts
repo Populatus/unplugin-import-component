@@ -5,7 +5,7 @@ import MagicString from 'magic-string'
 import fse from 'fs-extra'
 
 const NAME = 'vite-plugin-import-component'
-const scriptRegex = /(<script[\s\S]*>)([\s\S]*?)(<\/script>)/ig
+const scriptRegex = /(<script[\s]+[^>]+=[\s]*[^>]+>)([\s\S]*?)(<\/script>)/ig
 const templateRegex = /(<template>)([\s\S]*?)<\/template>/ig
 export interface Options {
   /**
@@ -60,6 +60,7 @@ export default function ImportComponent(options: Options): Plugin {
           const end = start + match[2].length
           s.overwrite(start, end, importMaps)
         }
+        console.log(s.toString())
         return s.toString()
       }
       return code
