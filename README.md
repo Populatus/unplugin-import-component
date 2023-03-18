@@ -2,7 +2,7 @@
 
 [![NPM version](https://img.shields.io/npm/v/@populatus/unplugin-import-component?color=a1b858&label=)](https://www.npmjs.com/package/@populatus/unplugin-import-component)
 
- unplugin that allows you to import vue components
+unplugin that allows you to import vue components
 
 ## Install
 
@@ -27,7 +27,7 @@ export default {
 }
 ```
 
-The sfc automatically insert to your vue modules.
+The component automatically insert to your vue.
 
 ## License
 
