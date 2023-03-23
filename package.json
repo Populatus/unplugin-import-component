@@ -16,10 +16,9 @@
     "unplugin-import",
     "import-component"
   ],
-  "sideEffects": false,
-  "main": "./dist/index.js",
-  "module": "./dist/index.mjs",
-  "types": "./dist/index.d.ts",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "index.d.ts",
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
@@ -32,6 +31,13 @@
       "import": "./dist/vite.mjs"
     },
     "./*": "./*"
+  },
+  "typesVersions": {
+    "*": {
+      "*": [
+        "./dist/*"
+      ]
+    }
   },
   "files": [
     "dist"

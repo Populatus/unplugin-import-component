@@ -16,11 +16,11 @@ Add plugin to your `vite.config.ts`:
 
 ```ts
 // vite.config.ts
-import ImportSFC from '@populatus/unplugin-import-component'
+import ImportSFC from '@populatus/unplugin-import-component/vite'
 
 export default {
   plugins: [
-    ImportComponent.vite({
+    ImportComponent({
       imports: [{ path: 'src/components/HelloWorld.vue' }, { path: 'src/components/a.vue' }],
     }),
   ],
