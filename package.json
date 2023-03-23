@@ -1,6 +1,6 @@
 {
   "name": "@populatus/unplugin-import-component",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "packageManager": "pnpm@7.12.0",
   "description": "A vite plugin that allows you to import vue components",
   "author": "Populatus <populatus@126.com>",
